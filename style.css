@@ -1,0 +1,27 @@
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  .card-img-top {
+    width: 100%;
+    height: 200px; /* Ajusta la altura que desees */
+    object-fit: contain; /* Evita que las imágenes se recorten */
+}
+
+p {
+  color: white;
+}
+
+h5 {
+  color: white;
+}
+
+h4{
+  color: white;
+}
+.color{
+  background-color: tomato;
+}
+
