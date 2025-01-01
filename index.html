@@ -44,7 +44,7 @@
                  class="img-fluid w-100">
             <!-- Botón centrado sobre la imagen -->
             <div class="position-absolute top-50 start-50 translate-middle">
-                <a href="#form" class="btn btn-primary btn-lg">Comienza Ahora</a>
+                <a href="#form" class="btn btn-info btn-lg">Comienza Ahora</a>
             </div>
         </div>
     </section>
@@ -52,38 +52,6 @@
 
     
     
-    
-    
-    
-    
-
-
-
-
-
-
-
-    <!-- Sección Acerca de -->
-    <section id="about" class="py-5 text-dark container text-center">
-        <div class="container text-center">
-            <h3 class="fw-bold mb-4">¿Por qué Calistenia?</h3>
-            <p class="lead bg-primary text-white p-3 rounded-3">Descubre cómo la calistenia puede mejorar tu fuerza, resistencia mental y bienestar general.</p>
-            <div class="row mt-5">
-                <div class="col-md-4 bg-info">
-                    <h4 class="fw-semibold">Mejora Tu Fuerza</h4>
-                    <p>Con ejercicios funcionales, la calistenia fortalece todo tu cuerpo sin la necesidad de equipos costosos. ¡Todo lo que necesitas es tu propio cuerpo!</p>
-                </div>
-                <div class="col-md-4 bg-primary">
-                    <h4 class="fw-semibold">Resistencia Mental</h4>
-                    <p>La calistenia te reta a ir más allá de tus límites. La perseverancia en cada ejercicio mejora tu enfoque y disciplina mental.</p>
-                </div>
-                <div class="col-md-4 colord">
-                    <h4 class="fw-semibold">Bienestar General</h4>
-                    <p>Al mejorar tu salud física, también mejorarás tu estado de ánimo, reduciendo el estrés y aumentando tu energía diaria.</p>
-                </div>
-            </div>
-        </div>
-    </section>
     
     <section id="movements" class="text-dark">
         <div class="container">
@@ -124,6 +92,38 @@
             </div>
         </div>
     </section>
+    
+    
+    
+
+
+
+
+
+
+
+    <!-- Sección Acerca de -->
+    <section id="about" class="py-5 text-dark container text-center">
+        <div class="container text-center">
+            <h3 class="fw-bold mb-4">¿Por qué Calistenia?</h3>
+            <p class="lead bg-primary text-white p-3 rounded-3">Descubre cómo la calistenia puede mejorar tu fuerza, resistencia mental y bienestar general.</p>
+            <div class="row mt-5">
+                <div class="col-md-4 bg-info">
+                    <h4 class="fw-semibold">Mejora Tu Fuerza</h4>
+                    <p>Con ejercicios funcionales, la calistenia fortalece todo tu cuerpo sin la necesidad de equipos costosos. ¡Todo lo que necesitas es tu propio cuerpo!</p>
+                </div>
+                <div class="col-md-4 bg-primary">
+                    <h4 class="fw-semibold">Resistencia Mental</h4>
+                    <p>La calistenia te reta a ir más allá de tus límites. La perseverancia en cada ejercicio mejora tu enfoque y disciplina mental.</p>
+                </div>
+                <div class="col-md-4 colord">
+                    <h4 class="fw-semibold">Bienestar General</h4>
+                    <p>Al mejorar tu salud física, también mejorarás tu estado de ánimo, reduciendo el estrés y aumentando tu energía diaria.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     
     
     
@@ -215,31 +215,42 @@
             <img src="imagenes/whatsapp.png" alt="WhatsApp" class="img-fluid" width="50">
         </a>
     </div>
-    <div class="container mt-5 " id="form" >
+    <div class="container mt-5" id="form">
         <h1 class="text-center mb-4">Contáctanos</h1>
         <form id="contact-form" class="p-4 border rounded shadow-sm bg-info">
-          <div class="mb-3">
-            <label for="name" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="name" name="name" placeholder="Tu Nombre" required>
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Correo Electrónico</label>
-            <input type="email" class="form-control" id="email" name="email" placeholder="Tu Correo" required>
-          </div>
-          <div class="mb-3">
-            <label for="message" class="form-label">Mensaje</label>
-            <textarea class="form-control" id="message" name="message" rows="4" placeholder="Escribe tu mensaje" required></textarea>
-          </div>
-          <button type="submit" class="btn btn-success w-100">Enviar por WhatsApp</button>
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Tu Nombre" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Tu Correo" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-success w-100">Enviar por WhatsApp</button>
         </form>
-      </div>
-      <div class="mt-5 d-flex justify-content-center">
-        <div class="payhip-embed-page" data-key="oASrf">...</div>
-        <script type="text/javascript" src="https://payhip.com/embed-page.js?v=24u68984"></script>
-      </div>
     </div>
-
-   
+    
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Nuestros Productos</h2>
+        <div class="d-flex flex-wrap justify-content-between gap-4">
+            <!-- Primer Payhip -->
+            <div class="payhip-item p-4 border rounded shadow-sm bg-light text-center flex-grow-1">
+                <div class="payhip-embed-page" data-key="oASrf">...</div>
+                <script type="text/javascript" src="https://payhip.com/embed-page.js?v=24u68984"></script>
+            </div>
+    
+            <!-- Segundo Payhip -->
+            <div class="payhip-item p-4 border rounded shadow-sm bg-light text-center flex-grow-1">
+                <div class="payhip-embed-page" data-key="Eeary">...</div>
+                <script type="text/javascript" src="https://payhip.com/embed-page.js?v=24u68984"></script>
+            </div>
+        </div>
+    </div>
+    
    <footer class="bg-dark text-white py-3" id="contact">
     <div class="container text-center">
         
