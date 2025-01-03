@@ -23,6 +23,7 @@ h4{
 }
 .color{
   background-color: tomato;
+  border:  2px color(black);
 }
 .colord{
   background-color: blueviolet;
